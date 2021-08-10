@@ -1,0 +1,29 @@
+{
+  "name": "open-music-api-consumer",
+  "version": "1.0.0",
+  "description": "Open Music Api Consumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "openmusicv3",
+    "dicoding",
+    "submission"
+  ],
+  "author": "urayirvan",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  }
+}
